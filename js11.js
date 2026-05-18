@@ -52,8 +52,6 @@ inputbtn.addEventListener("click",function(){
    
 })
 
-//template strings `` can break lines too
-//convert to number
 
     //for(let i=0;i<myLeads.length;i++){
     //ulEl.innerHTML+="<li>"+myLeads[i]+"</li>"
@@ -74,21 +72,3 @@ inputbtn.addEventListener("click",function(){
 //li.textConetnt=myLeads[i]
 //ulEl.append(li)
 
-
-
-
-//use const if you dont need to reassign the variables
-//truthy values=any data type except 0
-//falsy values=null,0,empty string,undefined,NaN
-//null=how you as a developer signalize emptiness
-//undefined=how js signalizes emptiness
-//let cur or curr={}
-//console.log(cur)->undefined
-//let cur=["a"]
-//console.log(cur[6])->undefined
-//let cur=null 
-//console.log(cur)->undefined
-//"0" true
-//[0] true
-//-0 false
-//parameters created inside of the function and agruments created outside of the function
